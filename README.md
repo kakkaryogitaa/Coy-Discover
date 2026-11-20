@@ -138,25 +138,19 @@ npx prisma generate
 npx prisma db seed
 ```
 
-### 8. Start the development server
+### 8. Start the Development Server
 
 ```bash
 npm run dev
 ```
 
-### 9. Open the application
-
-Visit:
-
-http://localhost:3000
-
-Coy-Discover should now be running locally!
+The application will start in development mode. Open the local development address displayed in your terminal to access Coy-Discover.
 
 ##  Useful Commands
 
 | Command | Purpose |
 |---|---|
-| `npm install` | Install project dependencies |
+| `npm install` | Install dependencies |
 | `npm run dev` | Start development server |
 | `npm run build` | Build the application |
 | `npm start` | Start production server |
@@ -164,32 +158,6 @@ Coy-Discover should now be running locally!
 | `npx prisma generate` | Generate Prisma Client |
 | `npx prisma studio` | Open Prisma Studio |
 | `npx prisma db seed` | Seed the database |
-
-##  API Endpoints
-
-| Method | Endpoint | Description |
-|---|---|---|
-| GET | `/api/feed` | Fetch discoverable profiles |
-| GET | `/api/matches` | Retrieve matched profiles |
-| POST | `/api/swipe` | Process profile swipe actions |
-
-##  Database
-
-Coy-Discover uses Prisma ORM for database operations.
-
-The Prisma schema and migration files are maintained in the `prisma/` directory.
-
-The database manages profile information and matching-related application data.
-
-##  Future Enhancements
-
-- Real-time messaging
-- Advanced profile preferences and filters
-- Profile photo uploads
-- Location-based discovery
-- Enhanced privacy and account settings
-- Match notifications
-- Production deployment
 
 ##  Author
 
@@ -200,4 +168,5 @@ The database manages profile information and matching-related application data.
 
 ---
 
+⭐ If you like this project, consider giving it a star!
 ⭐ If you like this project, consider giving it a star!
